@@ -7,5 +7,5 @@ permalink: "/"
 Welcome to my wonderful site!
 
 {% for post in site.posts %}
-+ [{{ post.title }}]({{ site.url }}{{ post.url }})
++ [{{ post.title }}]({{ site.url }}{{site.baseurl}}{{ post.url }})
 {% endfor %}
